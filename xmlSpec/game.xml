@@ -1,0 +1,196 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation.
+     So make sure to include your name as part of the screenTitle -->
+<title>The Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>1000</maxFrames>
+<username>Yuan Gao</username>
+
+<numberOfBalloons>20</numberOfBalloons>
+
+<view>
+  <width>1200</width>
+  <height>720</height>
+</view>
+
+<world>
+  <width>4000</width>
+  <height>720</height>
+</world>
+
+<castles>
+  <file>assets/castles.jpg</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</castles>
+
+<clouds>
+  <file>assets/clouds_combined.jpg</file>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</clouds>
+
+<castle>
+  <file>assets/castle.png</file>
+  <factor>2</factor>
+  <transparency>true</transparency>
+</castle>
+
+<tower>
+  <file>assets/tower.png</file>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</tower>
+
+<menu>
+  <width>350</width>
+  <height>400</height>
+  <loc x="400" y="100"/>
+  <name>Balloon Shooter</name>
+  <noOfOptions>3</noOfOptions> 
+  <optionLoc x="550" y="180" />  
+  <option0>Start Game</option0>
+  <option1>Help</option1>
+  <option2>Exit</option2>
+  <spaces>70</spaces>
+</menu>
+
+<option>
+  <file>assets/option1.png</file>
+  <startLoc x="340" y="170"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</option>
+
+<introHud>
+  <loc x="400" y="60"/>
+  <width>400</width>
+  <height>450</height>
+  <name>Balloon Shooter</name>
+  <left>Press A to move left</left>
+  <right>Press D to move right</right>
+  <shoot>Press Space to shoot</shoot>
+  <up>Press W to shoot upwards</up>
+  <jump>Press J to jump and shoot</jump>
+  <god>Press G to toggle God mode</god>
+  <hud>Press F1 to toggle IntroHud</hud>
+</introHud>
+
+<infoHud>
+  <loc x="50" y="20"/>
+  <width>400</width>
+  <height>400</height>
+</infoHud>
+
+<poolHud>
+  <loc x="895" y="20"/>
+  <width>280</width>
+  <height>105</height>
+</poolHud>
+
+
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<Balloon>
+  <file>assets/balloon.png</file>
+  <startLoc x="4000" y="720"/>
+  <frames>4</frames>
+  <rows>1</rows>
+  <imageWidth>67</imageWidth>
+  <imageHeight>128</imageHeight>
+  <frameInterval>1000</frameInterval>
+  <speedX>250</speedX>
+  <speedY>250</speedY>
+  <safeDistance>200</safeDistance>
+  <transparency>true</transparency>
+  <chunk>
+    <size>19</size>
+    <distance>100</distance>
+  </chunk>
+</Balloon>
+
+<Archer>
+  <folder>assets/Archer</folder>
+  <bullet>arrow</bullet>
+  <startLoc x="50" y="440"/>
+  <frames>10</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>100</speedY>
+  <transparency>false</transparency>
+  <chunk>
+    <size>99</size>
+    <distance>60</distance>
+  </chunk>
+</Archer>
+
+<arrow>
+  <file>assets/arrow.png</file>
+  <interval>750</interval>
+  <distance>650</distance>
+  <startRLoc x="178" y="143"/>
+  <startLLoc x="30" y="138"/>
+  <frames>2</frames>
+  <rows>1</rows>
+  <minSpeedX>600</minSpeedX>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+  <transparency>true</transparency>
+  <chunk>
+    <size>99</size>
+    <distance>50</distance>
+  </chunk>
+</arrow>
+
+<star>
+  <file>assets/star.png</file>
+  <startLoc x="1227" y="240"/>
+  <speedX>500</speedX>
+  <speedY>500</speedY>
+  <transparency>false</transparency>
+  <chunk>
+    <size>199</size>
+    <distance>200</distance>
+  </chunk>
+</star>
+
+<blueBall>
+  <file>assets/blueBall.png</file>
+  <startLoc x="2427" y="540"/>
+  <speedX>500</speedX>
+  <speedY>500</speedY>
+  <transparency>false</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</blueBall>
+
+<lollipop>
+  <file>assets/lollipop.png</file>
+  <startLoc x="327" y="100"/>
+  <speedX>500</speedX>
+  <speedY>500</speedY>
+  <transparency>false</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</lollipop>
+
+</GameData>
