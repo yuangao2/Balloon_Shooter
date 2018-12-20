@@ -1,3 +1,0 @@
-To make a movie, go to frames dir:
-
-avconv -r 60 -i Yuan\ Gao.%4d.bmp yuang.mp4
